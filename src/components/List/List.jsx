@@ -4,28 +4,7 @@ import { useState } from 'react'
 import Details from '../Details'
 import useStyles from './style'
 
-const places = [
-  {
-    name: 'Cool place',
-  },
-  {
-    name: 'Best beer',
-  },
-  {
-    name: 'Best steak',
-  },
-  {
-    name: 'Cool place',
-  },
-  {
-    name: 'Best beer',
-  },
-  {
-    name: 'Best steak',
-  },
-]
-
-const List = () => {
+const List = ({ places }) => {
   const [type, setType] = useState('restaurants')
   const [rating, setRating] = useState('')
 
