@@ -1,4 +1,4 @@
-import axios from 'axios'
+import axios from 'axios';
 
 export const getPlacesData = async (type, sw, ne) => {
   try {
@@ -15,10 +15,10 @@ export const getPlacesData = async (type, sw, ne) => {
         'X-RapidAPI-Key': '97754c5d38msh353e1df8719b9f8p105376jsnebac6906d644',
         'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com',
       },
-    })
+    });
 
-    return data
+    return data;
   } catch (err) {
-    console.log(err)
+    console.log(err);
   }
-}
+};
