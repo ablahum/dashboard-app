@@ -1,5 +1,5 @@
 const Details = ({ place }) => {
-  return <>{place.name}</>
-}
+  return <>{place.name}</>;
+};
 
-export default Details
+export default Details;
